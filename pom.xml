@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Proyecto Futbol Fanatic SPA</description>
+	<packaging>pom</packaging>
 	<url/>
 	<licenses>
 		<license/>
