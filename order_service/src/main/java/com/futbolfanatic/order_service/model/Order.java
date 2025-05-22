@@ -18,3 +18,4 @@ public class Order {
     private Integer quantity;
     private String status; // e.g., "Pending", "Confirmed"
 }
+
