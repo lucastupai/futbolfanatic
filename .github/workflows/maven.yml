@@ -3,9 +3,9 @@ name: Java CI with Maven
 on:
   workflow_dispatch:
   push:
-    branches: [ "testing" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "testing" ]
+    branches: [ "main" ]
 
 jobs:
   build:
