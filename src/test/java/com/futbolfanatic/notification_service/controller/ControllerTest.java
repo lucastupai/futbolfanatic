@@ -42,7 +42,7 @@ Notification n2 = new Notification(2L, 102L, "Mensaje 2", false);
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.size()").value(2))
                 .andExpect(jsonPath("$[0].message").value("Mensaje 1"))
-                .andExpect(jsonPath("$[1].user").value("usuario2"));
+                .andExpect(jsonPath("$[1].userId").value("usuario2"));
     }
 
     @Test
