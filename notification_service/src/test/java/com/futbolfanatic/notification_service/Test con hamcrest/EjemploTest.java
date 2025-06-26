@@ -7,7 +7,7 @@ public class EjemploTest {
 
     @Test
     public void pruebaHamcrest() {
-        String resultado = "pago exitoso";
-        assertThat(resultado, containsString("exitoso"));
+        String resultado = "notificacion enviada";
+        assertThat(resultado, containsString("notificada"));
     }
 }
