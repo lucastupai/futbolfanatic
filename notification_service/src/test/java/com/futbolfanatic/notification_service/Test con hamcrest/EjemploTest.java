@@ -8,6 +8,6 @@ public class EjemploTest {
     @Test
     public void pruebaHamcrest() {
         String resultado = "notificacion enviada";
-        assertThat(resultado, containsString("notificada"));
+        assertThat(resultado, containsString("notificacion"));
     }
 }
